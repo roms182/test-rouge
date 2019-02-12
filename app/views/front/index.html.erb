@@ -1,0 +1,7 @@
+<article>
+  <h2> #1 Password Autofill</h2>
+  <p>Si on ne parvient pas à empêcher l'Autofill de Chrome </p>
+<%= format_slim_code("
+= f.input :password, input_html: { autocomplete: 'new-password' }
+") %>
+</article>
